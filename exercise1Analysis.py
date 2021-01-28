@@ -23,14 +23,13 @@ sigmaY=1 #in cm
 zPosDC1=np.array([-6.25,-5.75,-5.25,-4.75,-4.25])
 zPosDC2=np.array([2.25,2.75,3.25,3.75,4.25])
 
-#magfield defined as 
+#magfield defined as circle radius 1m center (0,0) in x-z plane
 
-#gab between chambers start is 10m, so if 2m between first and last,,,8m gap?
+#gab between chamber centres is 10m
 
 #will be staiight either side,could i reflect model curve and just get r?
 #need magfield bounds
-print(np.arange(-100,101,1))
-print(np.sqrt(100**2-np.arange(-100,101,1)**2))
+
 
 plt.figure()
 n=np.random.randint(1000)
