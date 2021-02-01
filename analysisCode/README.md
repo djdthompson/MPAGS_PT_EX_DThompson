@@ -1,0 +1,21 @@
+# Particle Techniques Analysis Code
+Folder containing python code and corresponding root files for analysis.
+To run analysis user will require the following python packages:
+* NumPy
+* MatPlotLib
+* itertools
+* scipy.stats norm
+* uproot
+
+Most python installations through conda will have all of the above bar uproot as default.
+To install this version of uproot (not uproot4 i believe) do:
+```
+conda install -c conda-forge uproot
+```
+
+# Exercise 1
+Open the analysis file, use lines 10-17 to choose the inital momentum and mag field setting, then run the analysis. It will print some events that have been skipped and produce a histogram of momentum with a gaussian fit. If you would like more details about certain events you can use the
+```
+plotFits(n,momentum,p=None)
+```
+function to plot event n with momentum an fitting values given. This will give you a plot of z-x and z-y to investigate the event.
