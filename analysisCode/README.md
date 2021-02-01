@@ -13,6 +13,13 @@ To install this version of uproot (not uproot4 i believe) do:
 conda install -c conda-forge uproot
 ```
 
+# Documentation
+The discussion of the results are on overleaf at https://www.overleaf.com/read/mrxnbgzfnhhc if you would prefer to clone the project:
+```
+git clone https://git.overleaf.com/600eed8e000e33094946b07a
+```
+I will occasionaly upload the latest pdf to this folder with a date to indicate version.
+
 # Exercise 1
 Open the analysis file, use lines 10-17 to choose the inital momentum and mag field setting, then run the analysis. It will print some events that have been skipped and produce a histogram of momentum with a gaussian fit. If you would like more details about certain events you can use the
 ```
