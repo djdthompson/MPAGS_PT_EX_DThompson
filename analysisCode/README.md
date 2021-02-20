@@ -26,3 +26,6 @@ Open the analysis file, use lines 10-17 to choose the inital momentum and mag fi
 plotFits(n,momentum,p=None)
 ```
 function to plot event n with momentum an fitting values given. This will give you a plot of z-x and z-y to investigate the event.
+
+# Exercise 2
+Open the analysis file, use lines 10-17 to choose the inital momentum and mag field setting, then run the analysis. It will print some events that have been skipped and produce a histogram of energy recorded in the calorimeter along with some information about how the energy reconstruction.
